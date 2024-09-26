@@ -2,7 +2,7 @@
 # particular data type.  Dimensions are ordered from outer most
 # to inner most.
 
-Header header
+std_msgs/Header header
 MultiArrayDimension[] dim # Array of dimension properties
 uint32 data_offset        # padding elements at front of data
 
